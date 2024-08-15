@@ -1,0 +1,2 @@
+Invoking command in '/home/claudio/ros2_ws2/build/anymal_d_simple_description': /usr/bin/cmake --build /home/claudio/ros2_ws2/build/anymal_d_simple_description -- -j16 -l16
+Invoked command in '/home/claudio/ros2_ws2/build/anymal_d_simple_description' returned '2': /usr/bin/cmake --build /home/claudio/ros2_ws2/build/anymal_d_simple_description -- -j16 -l16

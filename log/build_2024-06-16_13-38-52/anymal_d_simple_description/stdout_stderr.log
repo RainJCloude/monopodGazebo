@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/claudio/ros2_ws2/build/anymal_d_simple_description
+-- Install configuration: ""
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/config
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/config/rviz
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/config/rviz/standing.rviz
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/launch
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/launch/launch_anymal_d.launch.py
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/battery.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/drive.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/mount.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/hip.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/tilt.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/docking_socket.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/shank_l.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/docking_socket.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/shank.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/battery.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/lidar_guard.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/mount.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/hip.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/face_shell.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/pan.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/base.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/shank_r.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/face_shell.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/tilt.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/thigh.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/lidar.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/lidar.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/foot.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/foot.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/bottom_shell.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/base.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/hatch.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/top_shell.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/hatch.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/bottom_shell.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/drive.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/top_shell.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/lidar_guard.jpg
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/thigh.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/pan.dae
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/urdf
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/urdf/anymal.urdf
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/ament_index/resource_index/package_run_dependencies/anymal_d_simple_description
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/ament_index/resource_index/parent_prefix_path/anymal_d_simple_description
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/environment/ament_prefix_path.sh
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/environment/ament_prefix_path.dsv
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/environment/path.sh
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/environment/path.dsv
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/local_setup.bash
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/local_setup.sh
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/local_setup.zsh
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/local_setup.dsv
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/package.dsv
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/ament_index/resource_index/packages/anymal_d_simple_description
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/cmake/anymal_d_simple_descriptionConfig.cmake
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/cmake/anymal_d_simple_descriptionConfig-version.cmake
+-- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/package.xml

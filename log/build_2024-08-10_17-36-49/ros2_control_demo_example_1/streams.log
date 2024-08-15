@@ -1,0 +1,47 @@
+[0.559s] Invoking command in '/home/claudio/ros2_ws2/build/ros2_control_demo_example_1': CMAKE_PREFIX_PATH=/home/claudio/ros2_ws2/install/ros2_control_demo_description:/home/claudio/ros2_ws2/install/ros2_control_demo_example_1:/home/claudio/ros2_ws2/install/anymal_d_simple_description:/home/claudio/ros2_ws2/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/claudio/ros2_ws2/build/ros2_control_demo_example_1 -- -j16 -l16
+[0.596s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_demo_example_1[0m
+[0.617s] [100%] Built target ros2_control_demo_example_1
+[0.631s] Invoked command in '/home/claudio/ros2_ws2/build/ros2_control_demo_example_1' returned '0': CMAKE_PREFIX_PATH=/home/claudio/ros2_ws2/install/ros2_control_demo_description:/home/claudio/ros2_ws2/install/ros2_control_demo_example_1:/home/claudio/ros2_ws2/install/anymal_d_simple_description:/home/claudio/ros2_ws2/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/claudio/ros2_ws2/build/ros2_control_demo_example_1 -- -j16 -l16
+[0.655s] Invoking command in '/home/claudio/ros2_ws2/build/ros2_control_demo_example_1': CMAKE_PREFIX_PATH=/home/claudio/ros2_ws2/install/ros2_control_demo_description:/home/claudio/ros2_ws2/install/ros2_control_demo_example_1:/home/claudio/ros2_ws2/install/anymal_d_simple_description:/home/claudio/ros2_ws2/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/claudio/ros2_ws2/build/ros2_control_demo_example_1
+[2.255s] -- Install configuration: ""
+[2.255s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/ros2_control_demo_example_1.xml
+[2.255s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/include/ros2_control_demo_example_1
+[2.255s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/include/ros2_control_demo_example_1/ros2_control_demo_example_1
+[2.255s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/include/ros2_control_demo_example_1/ros2_control_demo_example_1/rrbot.hpp
+[2.255s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch
+[2.255s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/view_robot.launch.py
+[2.255s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/ros2_control
+[2.255s] -- Installing: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/ros2_control/rrbot.ros2_control.xacro
+[2.255s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/urdf
+[2.255s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/urdf/rrbot.urdf.xacro
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/rrbot.launch.py
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/test_joint_trajectory_controller.launch.py
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/test_forward_position_controller.launch.py
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_controllers.yaml
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_joint_trajectory_publisher.yaml
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_forward_position_publisher.yaml
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/lib/libros2_control_demo_example_1.so
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/library_path.sh
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/library_path.dsv
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_1
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_1
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/ament_prefix_path.sh
+[2.256s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/ament_prefix_path.dsv
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/path.sh
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/path.dsv
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.bash
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.sh
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.zsh
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.dsv
+[2.257s] -- Installing: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.dsv
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ament_index/resource_index/packages/ros2_control_demo_example_1
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_1
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/export_ros2_control_demo_example_1Export.cmake
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/export_ros2_control_demo_example_1Export-noconfig.cmake
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ament_cmake_export_targets-extras.cmake
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ros2_control_demo_example_1Config.cmake
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ros2_control_demo_example_1Config-version.cmake
+[2.257s] -- Up-to-date: /home/claudio/ros2_ws2/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.xml

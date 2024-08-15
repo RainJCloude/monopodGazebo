@@ -1,0 +1,129 @@
+[0.047s] Invoking command in '/home/claudio/ros2_ws2/build/anymal_d_simple_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/claudio/ros2_ws2/build/anymal_d_simple_description -- -j16 -l16
+[0.064s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.156s] -- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.173s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.178s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.199s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.332s] -- Found gazebo_ros2_control: 0.4.9 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[0.629s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.630s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.704s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.258s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.274s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.274s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.277s] -- Searching for dependencies of ignition-math6
+[1.278s] -- Looking for OGRE...
+[1.281s] -- Found Ogre Ghadamon (1.9.0)
+[1.281s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.287s] -- Looking for OGRE_Paging...
+[1.287s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.287s] -- Looking for OGRE_Terrain...
+[1.287s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.287s] -- Looking for OGRE_Property...
+[1.287s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.287s] -- Looking for OGRE_RTShaderSystem...
+[1.288s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.288s] -- Looking for OGRE_Volume...
+[1.288s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.288s] -- Looking for OGRE_Overlay...
+[1.288s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.351s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.351s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.351s] -- Searching for dependencies of ignition-transport8
+[1.362s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.369s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.372s] -- Checking for module 'libzmq >= 4'
+[1.380s] --   Found libzmq , version 4.3.4
+[1.405s] -- Checking for module 'uuid'
+[1.413s] --   Found uuid, version 2.37.2
+[1.447s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.448s] -- Searching for dependencies of ignition-msgs5
+[1.462s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.466s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.466s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.467s] -- Searching for dependencies of ignition-common3
+[1.467s] -- Looking for dlfcn.h - found
+[1.467s] -- Looking for libdl - found
+[1.474s] -- Searching for <ignition-common3> component [graphics]
+[1.475s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.475s] -- Searching for dependencies of ignition-common3-graphics
+[1.475s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.476s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.476s] -- Searching for dependencies of ignition-fuel_tools4
+[1.500s] -- Checking for module 'jsoncpp'
+[1.508s] --   Found jsoncpp, version 1.9.5
+[1.533s] -- Checking for module 'libzip'
+[1.541s] --   Found libzip, version 1.7.3
+[1.575s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.575s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.576s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.578s] -- Gazebo version: 11.10
+[1.758s] -- Configuring done
+[1.761s] -- Generating done
+[1.762s] -- Build files have been written to: /home/claudio/ros2_ws2/build/anymal_d_simple_description
+[1.784s] Invoked command in '/home/claudio/ros2_ws2/build/anymal_d_simple_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/claudio/ros2_ws2/build/anymal_d_simple_description -- -j16 -l16
+[1.823s] Invoking command in '/home/claudio/ros2_ws2/build/anymal_d_simple_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/claudio/ros2_ws2/build/anymal_d_simple_description
+[1.831s] -- Install configuration: ""
+[1.832s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/config
+[1.832s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/config/initial_positions.yaml
+[1.833s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/config/rviz
+[1.833s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/config/rviz/standing.rviz
+[1.833s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/config/pos_controller.yaml
+[1.833s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/launch
+[1.833s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/launch/launch_anymal_d.launch.py
+[1.833s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes
+[1.833s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/battery.jpg
+[1.833s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/drive.jpg
+[1.833s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/mount.dae
+[1.833s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/hip.jpg
+[1.834s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/tilt.jpg
+[1.834s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/docking_socket.dae
+[1.834s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/shank_l.dae
+[1.834s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/docking_socket.jpg
+[1.834s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/shank.jpg
+[1.834s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/battery.dae
+[1.834s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/lidar_guard.dae
+[1.834s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/mount.jpg
+[1.834s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/hip.dae
+[1.834s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/face_shell.dae
+[1.834s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/pan.jpg
+[1.834s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/base.jpg
+[1.835s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/shank_r.dae
+[1.835s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/face_shell.jpg
+[1.835s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/tilt.dae
+[1.835s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/thigh.jpg
+[1.835s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/lidar.jpg
+[1.835s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/lidar.dae
+[1.835s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/foot.dae
+[1.835s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/foot.jpg
+[1.835s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/bottom_shell.jpg
+[1.835s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/base.dae
+[1.836s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/hatch.jpg
+[1.836s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/top_shell.dae
+[1.836s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/hatch.dae
+[1.836s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/bottom_shell.dae
+[1.836s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/drive.dae
+[1.836s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/top_shell.jpg
+[1.836s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/lidar_guard.jpg
+[1.836s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/thigh.dae
+[1.836s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/meshes/pan.dae
+[1.836s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/urdf
+[1.836s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/urdf/anymal.urdf
+[1.836s] -- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/ament_index/resource_index/package_run_dependencies/anymal_d_simple_description
+[1.836s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/ament_index/resource_index/parent_prefix_path/anymal_d_simple_description
+[1.836s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/environment/ament_prefix_path.sh
+[1.836s] -- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/environment/ament_prefix_path.dsv
+[1.836s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/environment/path.sh
+[1.836s] -- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/environment/path.dsv
+[1.837s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/local_setup.bash
+[1.837s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/local_setup.sh
+[1.837s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/local_setup.zsh
+[1.837s] -- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/local_setup.dsv
+[1.837s] -- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/package.dsv
+[1.838s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/ament_index/resource_index/packages/anymal_d_simple_description
+[1.838s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/cmake/anymal_d_simple_descriptionConfig.cmake
+[1.838s] -- Up-to-date: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/cmake/anymal_d_simple_descriptionConfig-version.cmake
+[1.838s] -- Installing: /home/claudio/ros2_ws2/install/anymal_d_simple_description/share/anymal_d_simple_description/package.xml
+[1.838s] Invoked command in '/home/claudio/ros2_ws2/build/anymal_d_simple_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/claudio/ros2_ws2/build/anymal_d_simple_description

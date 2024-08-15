@@ -1,0 +1,11 @@
+/home/claudio/ros2_ws2/build/ign_ros2_control/CMakeFiles/uninstall.dir
+/home/claudio/ros2_ws2/build/ign_ros2_control/CMakeFiles/ign_ros2_control_uninstall.dir
+/home/claudio/ros2_ws2/build/ign_ros2_control/CMakeFiles/ign_ros2_control-system.dir
+/home/claudio/ros2_ws2/build/ign_ros2_control/CMakeFiles/ign_hardware_plugins.dir
+/home/claudio/ros2_ws2/build/ign_ros2_control/CMakeFiles/test.dir
+/home/claudio/ros2_ws2/build/ign_ros2_control/CMakeFiles/edit_cache.dir
+/home/claudio/ros2_ws2/build/ign_ros2_control/CMakeFiles/rebuild_cache.dir
+/home/claudio/ros2_ws2/build/ign_ros2_control/CMakeFiles/list_install_components.dir
+/home/claudio/ros2_ws2/build/ign_ros2_control/CMakeFiles/install.dir
+/home/claudio/ros2_ws2/build/ign_ros2_control/CMakeFiles/install/local.dir
+/home/claudio/ros2_ws2/build/ign_ros2_control/CMakeFiles/install/strip.dir

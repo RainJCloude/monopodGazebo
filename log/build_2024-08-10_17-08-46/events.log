@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000082] (-) JobUnselected: {'identifier': 'anymal_d_simple_description'}
+[0.000117] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.000128] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.000143] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.000151] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.000175] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.000183] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.000203] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_15'}
+[0.000213] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.000221] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.000229] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.000238] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.000246] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.000254] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.000262] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.000270] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.000279] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.000288] (ros2_control_demo_testing) JobQueued: {'identifier': 'ros2_control_demo_testing', 'dependencies': OrderedDict()}
+[0.000300] (ros2_control_demo_testing) JobStarted: {'identifier': 'ros2_control_demo_testing'}
+[0.099548] (-) TimerEvent: {}
+[0.199783] (-) TimerEvent: {}
+[0.299995] (-) TimerEvent: {}
+[0.400254] (-) TimerEvent: {}
+[0.500485] (-) TimerEvent: {}
+[0.600754] (-) TimerEvent: {}
+[0.701033] (-) TimerEvent: {}
+[0.733865] (ros2_control_demo_testing) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/ros2_control_demo_testing', 'build', '--build-base', '/home/claudio/ros2_ws2/build/ros2_control_demo_testing/build', 'install', '--record', '/home/claudio/ros2_ws2/build/ros2_control_demo_testing/install.log', '--single-version-externally-managed'], 'cwd': '/home/claudio/ros2_ws2/src/ros2_control_demos/ros2_control_demo_testing', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'claudio', 'LC_TIME': 'it_IT.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:raisim_ws/raisimlib/raisim/linux/lib:raisim_ws/raisim_build/lib', 'HOME': '/home/claudio', 'CONDA_SHLVL': '0', 'ISAAC_PATH': '/home/claudio/.local/share/ov/pkg/isaac_sim-*', 'OLDPWD': '/home/claudio', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'SYSTEMD_EXEC_PID': '2833', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'claudio', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'claudio', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'orbit': '/home/claudio//orbit/source/extensions/omni.isaac.orbit/omni/isaac/orbit/', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/claudio/miniconda3/condabin:/home/claudio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/claudio-GF63-Thin-11UC:@/tmp/.ICE-unix/2814,unix/claudio-GF63-Thin-11UC:/tmp/.ICE-unix/2814', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f7a86e4b_e6d5_46cf_8ff1_99dfc2c71e1b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/claudio/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/claudio/ros2_ws2/build/ros2_control_demo_testing', 'Gym': '/home/claudio/raisim_ws/raisimlib/raisimGymTorch', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/claudio/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/claudio/ros2_ws2/build/ros2_control_demo_testing/prefix_override:/home/claudio/ros2_ws2/install/ros2_control_demo_testing/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:raisim_ws/raisimlib/raisim/linux/lib:raisim_ws/raisim_build/lib', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.801196] (-) TimerEvent: {}
+[0.875830] (ros2_control_demo_testing) StdoutLine: {'line': b'running egg_info\n'}
+[0.876099] (ros2_control_demo_testing) StdoutLine: {'line': b'creating ../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info\n'}
+[0.885849] (ros2_control_demo_testing) StdoutLine: {'line': b'writing ../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info/PKG-INFO\n'}
+[0.886059] (ros2_control_demo_testing) StdoutLine: {'line': b'writing dependency_links to ../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info/dependency_links.txt\n'}
+[0.886105] (ros2_control_demo_testing) StdoutLine: {'line': b'writing requirements to ../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info/requires.txt\n'}
+[0.886140] (ros2_control_demo_testing) StdoutLine: {'line': b'writing top-level names to ../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info/top_level.txt\n'}
+[0.886172] (ros2_control_demo_testing) StdoutLine: {'line': b"writing manifest file '../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info/SOURCES.txt'\n"}
+[0.901273] (-) TimerEvent: {}
+[0.906474] (ros2_control_demo_testing) StdoutLine: {'line': b"reading manifest file '../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info/SOURCES.txt'\n"}
+[0.906889] (ros2_control_demo_testing) StdoutLine: {'line': b"writing manifest file '../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info/SOURCES.txt'\n"}
+[0.906939] (ros2_control_demo_testing) StdoutLine: {'line': b'running build\n'}
+[0.906980] (ros2_control_demo_testing) StdoutLine: {'line': b'running build_py\n'}
+[0.907046] (ros2_control_demo_testing) StdoutLine: {'line': b'creating /home/claudio/ros2_ws2/build/ros2_control_demo_testing/build\n'}
+[0.907108] (ros2_control_demo_testing) StdoutLine: {'line': b'creating /home/claudio/ros2_ws2/build/ros2_control_demo_testing/build/lib\n'}
+[0.907179] (ros2_control_demo_testing) StdoutLine: {'line': b'creating /home/claudio/ros2_ws2/build/ros2_control_demo_testing/build/lib/ros2_control_demo_testing\n'}
+[0.907240] (ros2_control_demo_testing) StdoutLine: {'line': b'copying ros2_control_demo_testing/__init__.py -> /home/claudio/ros2_ws2/build/ros2_control_demo_testing/build/lib/ros2_control_demo_testing\n'}
+[0.907378] (ros2_control_demo_testing) StdoutLine: {'line': b'copying ros2_control_demo_testing/test_utils.py -> /home/claudio/ros2_ws2/build/ros2_control_demo_testing/build/lib/ros2_control_demo_testing\n'}
+[0.907795] (ros2_control_demo_testing) StdoutLine: {'line': b'running install\n'}
+[0.910187] (ros2_control_demo_testing) StderrLine: {'line': b'/home/claudio/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[0.910274] (ros2_control_demo_testing) StderrLine: {'line': b'!!\n'}
+[0.910311] (ros2_control_demo_testing) StderrLine: {'line': b'\n'}
+[0.910344] (ros2_control_demo_testing) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.910375] (ros2_control_demo_testing) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[0.910407] (ros2_control_demo_testing) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[0.910439] (ros2_control_demo_testing) StderrLine: {'line': b'        other standards-based tools.\n'}
+[0.910471] (ros2_control_demo_testing) StderrLine: {'line': b'\n'}
+[0.910501] (ros2_control_demo_testing) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[0.910532] (ros2_control_demo_testing) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.910563] (ros2_control_demo_testing) StderrLine: {'line': b'\n'}
+[0.910594] (ros2_control_demo_testing) StderrLine: {'line': b'!!\n'}
+[0.910624] (ros2_control_demo_testing) StderrLine: {'line': b'  self.initialize_options()\n'}
+[0.913683] (ros2_control_demo_testing) StdoutLine: {'line': b'running install_lib\n'}
+[0.924023] (ros2_control_demo_testing) StdoutLine: {'line': b'creating /home/claudio/ros2_ws2/install/ros2_control_demo_testing/lib/python3.10/site-packages/ros2_control_demo_testing\n'}
+[0.924202] (ros2_control_demo_testing) StdoutLine: {'line': b'copying /home/claudio/ros2_ws2/build/ros2_control_demo_testing/build/lib/ros2_control_demo_testing/__init__.py -> /home/claudio/ros2_ws2/install/ros2_control_demo_testing/lib/python3.10/site-packages/ros2_control_demo_testing\n'}
+[0.924249] (ros2_control_demo_testing) StdoutLine: {'line': b'copying /home/claudio/ros2_ws2/build/ros2_control_demo_testing/build/lib/ros2_control_demo_testing/test_utils.py -> /home/claudio/ros2_ws2/install/ros2_control_demo_testing/lib/python3.10/site-packages/ros2_control_demo_testing\n'}
+[0.924482] (ros2_control_demo_testing) StdoutLine: {'line': b'byte-compiling /home/claudio/ros2_ws2/install/ros2_control_demo_testing/lib/python3.10/site-packages/ros2_control_demo_testing/__init__.py to __init__.cpython-310.pyc\n'}
+[0.924728] (ros2_control_demo_testing) StdoutLine: {'line': b'byte-compiling /home/claudio/ros2_ws2/install/ros2_control_demo_testing/lib/python3.10/site-packages/ros2_control_demo_testing/test_utils.py to test_utils.cpython-310.pyc\n'}
+[0.925330] (ros2_control_demo_testing) StdoutLine: {'line': b'running install_data\n'}
+[0.935764] (ros2_control_demo_testing) StdoutLine: {'line': b'creating /home/claudio/ros2_ws2/install/ros2_control_demo_testing/share/ament_index\n'}
+[0.935957] (ros2_control_demo_testing) StdoutLine: {'line': b'creating /home/claudio/ros2_ws2/install/ros2_control_demo_testing/share/ament_index/resource_index\n'}
+[0.936021] (ros2_control_demo_testing) StdoutLine: {'line': b'creating /home/claudio/ros2_ws2/install/ros2_control_demo_testing/share/ament_index/resource_index/packages\n'}
+[0.936058] (ros2_control_demo_testing) StdoutLine: {'line': b'copying resource/ros2_control_demo_testing -> /home/claudio/ros2_ws2/install/ros2_control_demo_testing/share/ament_index/resource_index/packages\n'}
+[0.936090] (ros2_control_demo_testing) StdoutLine: {'line': b'copying package.xml -> /home/claudio/ros2_ws2/install/ros2_control_demo_testing/share/ros2_control_demo_testing\n'}
+[0.936122] (ros2_control_demo_testing) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.946849] (ros2_control_demo_testing) StdoutLine: {'line': b'Copying ../../../build/ros2_control_demo_testing/ros2_control_demo_testing.egg-info to /home/claudio/ros2_ws2/install/ros2_control_demo_testing/lib/python3.10/site-packages/ros2_control_demo_testing-0.0.0-py3.10.egg-info\n'}
+[0.947308] (ros2_control_demo_testing) StdoutLine: {'line': b'running install_scripts\n'}
+[1.001418] (-) TimerEvent: {}
+[1.056918] (ros2_control_demo_testing) StdoutLine: {'line': b"writing list of installed files to '/home/claudio/ros2_ws2/build/ros2_control_demo_testing/install.log'\n"}
+[1.071153] (ros2_control_demo_testing) CommandEnded: {'returncode': 0}
+[1.101691] (-) TimerEvent: {}
+[1.111165] (ros2_control_demo_testing) JobEnded: {'identifier': 'ros2_control_demo_testing', 'rc': 0}
+[1.111638] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+hardware_interface;pluginlib;controller_manager;geometry_msgs;rclcpp;std_msgs;std_srvs;tf2_geometry_msgs;gazebo_ros2_control;trajectory_msgs;joint_state_publisher_gui;launch;launch_ros;robot_state_publisher;rviz2;urdf;gazebo_ros;joint_trajectory_controller;joint_state_broadcaster;xacro
