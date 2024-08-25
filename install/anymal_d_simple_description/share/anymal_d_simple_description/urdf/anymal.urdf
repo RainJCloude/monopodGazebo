@@ -413,7 +413,7 @@
     <child link="lidar_parent"/>
     <origin rpy="0 0 1.5707963267948966" xyz="-0.310 0.0 0.1585"/>
   </joint>
-      This accounts for the fact that the Lidar driver rotates the measurements 90 degrees in yaw -->
+      <!--This accounts for the fact that the Lidar driver rotates the measurements 90 degrees in yaw -->
   <joint name="lidar_parent_to_lidar" type="fixed">
     <parent link="lidar_parent"/>
     <child link="lidar"/>
@@ -1415,23 +1415,49 @@
   </link>
 
 
-  <xacro:include filename="$(find anymal_d_simple_description)/ros2_control/anymal_d_pos_controller.xacro" />
+  <!--<xacro:include filename="$(find anymal_d_simple_description)/ros2_control/anymal_d_pos_controller.xacro" />
 
-  <xacro:anymal_d_pos_controller name="anymal_d" prefix="" />
-  
+  <xacro:anymal_d_pos_controller name="anymal_d" prefix="" />-->
+ 
+  <xacro:property name="use_gz_ros2_control" value="false" />
 
-  <gazebo> <!--load the control manager-->
-    <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
-      <parameters>/home/claudio/ros2_ws2/src/anymal_d_simple_description/config/pos_controller.yaml</parameters>
-      <controller_manager_prefix_node_name>controller_manager</controller_manager_prefix_node_name>
-    </plugin>
-  </gazebo>
   
-  
+    <!--
+    <gazebo>  
+        <xacro:if value="$(arg use_gz_ros2_control)">
+            <plugin filename="libgz_ros2_control-system" name ="gz_ros2_control::GazeboSimROS2ControlPlugin" >
+        <xacro:else>
+            <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+        </xacro:else>
+        <parameters>/home/claudio/ANYmal_Ros2/src/anymal_d_simple_description/config/pos_controller.yaml</parameters>
+        <controller_manager_prefix_node_name>controller_manager</controller_manager_prefix_node_name>
+        </plugin>
+    </gazebo>
+    -->
+
+   <gazebo> <!--load the control manager-->
+            <plugin filename="libgz_ros2_control-system" name ="gz_ros2_control::GazeboSimROS2ControlPlugin" >
+         <parameters>/home/claudio/ANYmal_Ros2/src/anymal_d_simple_description/config/pos_controller.yaml</parameters>
+        <controller_manager_prefix_node_name>controller_manager</controller_manager_prefix_node_name>
+        </plugin>
+    </gazebo>
+
+
+
+<!--Install with sudo apt install ros-humble-ign-ros2-control-->
 <ros2_control name="GazeboSystem" type="system">
-  <hardware> 
-    <plugin>ign_ros2_control/IgnitionSystem</plugin><!--hardware interface. In our case we don't have hardware so we set the simulator-->
+  <!--
+  <hardware>
+        <xacro:if value="$(arg use_gz_ros2_control)">
+            <plugin>gz_ros2_control/GazeboSimSystem </plugin>  
+        <xacro:else>
+            <plugin>ign_ros2_control/IgnitionSystem</plugin> 
+        </xacro:else>
   </hardware>
+    -->
+  <hardware>
+        <plugin>gz_ros2_control/GazeboSimSystem </plugin> 
+   </hardware>
 
   <joint name="LF_HAA">
       <command_interface name="position"/> <!--to set the goal-->
@@ -1582,4 +1608,36 @@
     </joint>
   </ros2_control>
   
+
+<gazebo reference="lidar_parent">
+  <sensor name="lidar" type="ray">
+    <always_on>true</always_on>
+    <visualize>true</visualize>
+    <update_rate>5</update_rate>
+    <ray>
+      <scan>
+        <horizontal>
+          <samples>360</samples>
+          <resolution>1.000000</resolution>
+          <min_angle>0.000000</min_angle>
+          <max_angle>6.280000</max_angle>
+        </horizontal>
+      </scan>
+      <range>
+        <min>0.120000</min>
+        <max>3.5</max>
+        <resolution>0.015000</resolution>
+      </range>
+      <noise>
+        <type>gaussian</type>
+        <mean>0.0</mean>
+        <stddev>0.01</stddev>
+      </noise>
+    </ray>
+      <plugin filename="ignition-gazebo-sensors-system" name="ignition::gazebo::systems::Sensors">
+          </plugin>
+
+  </sensor>
+</gazebo>
+ 
 </robot>

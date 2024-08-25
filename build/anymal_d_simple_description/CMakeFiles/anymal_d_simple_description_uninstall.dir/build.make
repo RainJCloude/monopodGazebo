@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/claudio/ros2_ws2/src/anymal_d_simple_description
+CMAKE_SOURCE_DIR = /home/claudio/ANYmal_Ros2/src/anymal_d_simple_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/claudio/ros2_ws2/build/anymal_d_simple_description
+CMAKE_BINARY_DIR = /home/claudio/ANYmal_Ros2/build/anymal_d_simple_description
 
 # Utility rule file for anymal_d_simple_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/anymal_d_simple_description_uninstall.dir/compiler_depend.mak
 include CMakeFiles/anymal_d_simple_description_uninstall.dir/progress.make
 
 CMakeFiles/anymal_d_simple_description_uninstall:
-	/usr/bin/cmake -P /home/claudio/ros2_ws2/build/anymal_d_simple_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/claudio/ANYmal_Ros2/build/anymal_d_simple_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 anymal_d_simple_description_uninstall: CMakeFiles/anymal_d_simple_description_uninstall
 anymal_d_simple_description_uninstall: CMakeFiles/anymal_d_simple_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/anymal_d_simple_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/anymal_d_simple_description_uninstall.dir/clean
 
 CMakeFiles/anymal_d_simple_description_uninstall.dir/depend:
-	cd /home/claudio/ros2_ws2/build/anymal_d_simple_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudio/ros2_ws2/src/anymal_d_simple_description /home/claudio/ros2_ws2/src/anymal_d_simple_description /home/claudio/ros2_ws2/build/anymal_d_simple_description /home/claudio/ros2_ws2/build/anymal_d_simple_description /home/claudio/ros2_ws2/build/anymal_d_simple_description/CMakeFiles/anymal_d_simple_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/claudio/ANYmal_Ros2/build/anymal_d_simple_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudio/ANYmal_Ros2/src/anymal_d_simple_description /home/claudio/ANYmal_Ros2/src/anymal_d_simple_description /home/claudio/ANYmal_Ros2/build/anymal_d_simple_description /home/claudio/ANYmal_Ros2/build/anymal_d_simple_description /home/claudio/ANYmal_Ros2/build/anymal_d_simple_description/CMakeFiles/anymal_d_simple_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/anymal_d_simple_description_uninstall.dir/depend
 

@@ -45,7 +45,9 @@ def generate_launch_description():
         )
     )
     
-    declared_arguments.append(DeclareLaunchArgument('gz_args', default_value='-r -v 4 empty.sdf',
+    """declared_arguments.append(DeclareLaunchArgument('gz_args', default_value='-r -v 1 /home/claudio/ANYmal_Ros2/src/anymal_d_simple_description/urdf/anymal.sdf',
+                              description='Arguments for gz_sim'),)"""
+    declared_arguments.append(DeclareLaunchArgument('gz_args', default_value='-r -v 1 empty.sdf',
                               description='Arguments for gz_sim'),)
 
 
@@ -54,7 +56,7 @@ def generate_launch_description():
         -Robot state publisher need as string the whole content of the urdf
         -Rvizw and spawnRobot.py require the paths to their files"""
     urdf_path = os.path.join(
-        get_package_share_directory('anymal_d_simple_description'), "urdf", "anymal.urdf"
+        get_package_share_directory('anymal_d_simple_description'), "urdf", "anymal.xacro.urdf"
     )
     with open(urdf_path, 'r') as infp:
         robot_desc = infp.read()
@@ -139,7 +141,7 @@ def generate_launch_description():
             PythonLaunchDescriptionSource(
                 [PathJoinSubstitution([FindPackageShare('ros_gz_sim'),
                                     'launch',
-                                    'gz_sim.launch.py'])]),
+                                    'gz_sim.launch.py'])]), #ign_gazebo.launch.py
             launch_arguments={'gz_args': LaunchConfiguration('gz_args')}.items()
     )
     gz_spawn_entity = Node(
@@ -153,6 +155,23 @@ def generate_launch_description():
                     "-y", str(position[1]),
                     "-z", str(position[2]),],
     )
+    anymal_sdf_path = os.path.join(
+        get_package_share_directory('anymal_d_simple_description'), "urdf", "anymal.sdf"
+    )
+    spawn_sensor = Node(
+        package='ros_gz_sim',
+        executable='create',
+        arguments=[
+            '-file', anymal_sdf_path,
+            '-entity', 'lidar_model',
+            '-x', '0', '-y', '0', '-z', '0.5',
+            '-R', '0', '-P', '0', '-Y', '1.57'
+        ],
+        output='screen'
+    )
+
+
+
 
     robot_controllers = PathJoinSubstitution([FindPackageShare("anymal_d_simple_description"), "config", "pos_controller.yaml",])
 
@@ -207,7 +226,8 @@ def generate_launch_description():
         robot_state_publisher_node, #publish pose of each link and transformation to know ehre the robot is
         #rviz_node,
         gazebo_ignition,
-        gz_spawn_entity,
+        #gz_spawn_entity,
+        spawn_sensor,
         #control_node, #if your hardware interface is the simulator, the ros-control will be the one specified in the plugin gazebo, 
         #joint_trajectory_controller,
         #joint_state_broadcaster, #publish the state of the robot as sensor-masgs for control (like the joints pos e vel)

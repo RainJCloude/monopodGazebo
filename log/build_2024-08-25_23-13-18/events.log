@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000189] (-) JobUnselected: {'identifier': 'anymal_d_simple_description'}
+[0.000268] (-) JobUnselected: {'identifier': 'gz_ros2_control'}
+[0.000278] (-) JobUnselected: {'identifier': 'gz_ros2_control_demos'}
+[0.000287] (-) JobUnselected: {'identifier': 'gz_ros2_control_tests'}
+[0.000398] (-) EventReactorShutdown: {}
